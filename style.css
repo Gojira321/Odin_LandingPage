@@ -1,3 +1,9 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .top {
   background-color: #1F2937;
   color: #F9FAF8;
@@ -12,6 +18,11 @@ h2 {
   font-size: 48px;
 }
 
+h3 {
+  font-weight: bolder;
+  font-size: 36px;
+  color: #1F2937;
+}
 button {
   background-color: #3882F6;
   color: #F9FAF8;
@@ -22,17 +33,30 @@ button {
 }
 
 .mid1 {
+  color: #1F2937;
   background-color: white;
+  font-size: 18px;
 }
 
 .mid2 {
   background-color: #E5E7EB;
+  color: #1F2937;
+  font-weight: light;
+  font-style: italic;
+  font-size: 36px;
 }
 
 .mid3 {
+  font-size: 18px;
   background-color: white;
+  font-weight: normal;
+  font-style: normal;
 }
 
 .footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
   background-color: #1F2937;
 }
