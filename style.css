@@ -1,0 +1,38 @@
+.top {
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-weight: bolder;
+  font-size: 48px;
+}
+
+button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+}
+
+.topPara{
+  color: #E5E7EB;
+}
+
+.mid1 {
+  background-color: white;
+}
+
+.mid2 {
+  background-color: #E5E7EB;
+}
+
+.mid3 {
+  background-color: white;
+}
+
+.footer {
+  background-color: #1F2937;
+}
