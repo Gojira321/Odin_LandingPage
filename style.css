@@ -1,12 +1,55 @@
-.main {
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  background-color: #1F2937;
+  color: #F9FAF8;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #F9FAF8;
 }
 
 .top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
   background-color: #1F2937;
   color: #F9FAF8;
+  height: auto;
+  padding: 20px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 100px;
+}
+
+.topStuff {
+  img {
+    width: 400px;
+    height: 200px;
+  }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 70px;
 }
 
 h1 {
@@ -33,24 +76,66 @@ button {
 }
 
 .mid1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
   color: #1F2937;
   background-color: white;
   font-size: 18px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.midPics {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  p:nth-child(2n) {
+    flex-basis: 100%;
+  }
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
 }
 
 .mid2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
   background-color: #E5E7EB;
   color: #1F2937;
   font-weight: light;
   font-style: italic;
   font-size: 36px;
+  padding: 20px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .mid3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #1F2937;
+}
+
+.mid3Box {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
   font-size: 18px;
-  background-color: white;
+  background-color: #3882F6;
   font-weight: normal;
   font-style: normal;
+  padding: 30px;
 }
 
 .footer {
@@ -59,4 +144,26 @@ button {
   justify-content: center;
   color: white;
   background-color: #1F2937;
+}
+.button-10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  color: #fff;
+  background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+   background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-10:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
 }
