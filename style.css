@@ -3,6 +3,7 @@ body {
   padding: 0;
 }
 
+
 .header {
   display: flex;
   flex-direction: row;
@@ -12,6 +13,7 @@ body {
   align-items: center;
   padding-left: 150px;
   padding-right: 150px;
+  padding-bottom: 100px;
 }
 
 .links {
@@ -30,7 +32,7 @@ body {
   flex-direction: column;
   align-items: center;
   align-content: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   background-color: #1F2937;
   color: #F9FAF8;
   height: auto;
@@ -39,16 +41,19 @@ body {
   padding-right: 150px;
   padding-bottom: 100px;
 }
+.top img {
+  width: 400px;
+  height: 250px;
+}
 
-.topStuff {
-  img {
-    width: 400px;
+.top {
+  topText {
     height: 200px;
   }
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   gap: 70px;
 }
 
@@ -56,7 +61,7 @@ h1 {
   font-size: 24px;
 }
 
-h2 {
+h7 {
   font-weight: bolder;
   font-size: 48px;
 }
@@ -66,6 +71,11 @@ h3 {
   font-size: 36px;
   color: #1F2937;
 }
+
+.mid3 b {
+  font-size: 20px;
+}
+
 button {
   background-color: #3882F6;
   color: #F9FAF8;
@@ -83,24 +93,27 @@ button {
   color: #1F2937;
   background-color: white;
   font-size: 18px;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 250px;
+  padding-right: 250px;
   padding-top: 50px;
   padding-bottom: 100px;
+  gap: 50px;
 }
 
 .midPics {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  p:nth-child(2n) {
-    flex-basis: 100%;
-  }
-  padding-left: 150px;
-  padding-right: 150px;
+  justify-content: space-between;
+  gap: 50px;
 }
 
-img {
+.midPicsText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.midPicsText > img {
   width: 100px;
   height: 100px;
 }
@@ -115,27 +128,34 @@ img {
   font-style: italic;
   font-size: 36px;
   padding: 20px;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 250px;
+  padding-right: 250px;
 }
 
 .mid3 {
   display: flex;
   flex-direction: column;
-  background-color: #1F2937;
+  background-color: white;
 }
 
 .mid3Box {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-content: center;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   font-size: 18px;
   background-color: #3882F6;
   font-weight: normal;
   font-style: normal;
-  padding: 30px;
+  padding: 50px;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
+  color: #F9FAF8;
+  gap: 100px;
 }
 
 .footer {
